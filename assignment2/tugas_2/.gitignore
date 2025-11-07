@@ -43,3 +43,40 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+flutter_*.png
+
+# Android
+.gradle/
+local.properties
+*.iml
+*.hprof
+
+# iOS
+DerivedData/
+*.xcworkspace
+Pods/
+Podfile.lock
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Linux/Mac/Windows builds
+flutter/generated_plugin_registrant.*
+flutter/generated_plugins.cmake
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Misc
+*.log
+.idea/
+.vscode/
